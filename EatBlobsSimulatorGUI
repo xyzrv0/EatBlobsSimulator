@@ -1,0 +1,570 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Eat Blobs Simulator", "Midnight")
+
+-- Skins
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+MainSection:NewButton("Get free skin GALAXY", "buy the galaxy skin for free", function()
+    local args = {
+        [1] = "Galaxy",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin CODE", "buy the code skin for free", function()
+    local args = {
+        [1] = "Code",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin RAINBOW", "buy the rainbow skin for free", function()
+    local args = {
+        [1] = "Rainbow",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin ZEBRA", "buy the zebra skin for free", function()
+    local args = {
+        [1] = "Zebra",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin CHEETAH", "buy the cheetah skin for free", function()
+    local args = {
+        [1] = "Cheetah",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin WATER", "buy the water skin for free", function()
+    local args = {
+        [1] = "Water",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin FUTURE", "buy the future skin for free", function()
+    local args = {
+        [1] = "Future",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin CHAD", "buy the chad skin for free", function()
+    local args = {
+        [1] = "Chad",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin KAREN", "buy the karen skin for free", function()
+    local args = {
+        [1] = "Karen",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin DANGER", "buy the danger skin for free", function()
+    local args = {
+        [1] = "Danger",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin ROBERT", "buy the robert skin for free", function()
+    local args = {
+        [1] = "Robert",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin HAMSPER", "buy the hamsper skin for free", function()
+    local args = {
+        [1] = "hamsper",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin TROLL", "buy the troll skin for free", function()
+    local args = {
+        [1] = "troll",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin ELEMENTAL", "buy the elemental skin for free", function()
+    local args = {
+        [1] = "Elemental",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin MAGMA", "buy the magma skin for free", function()
+    local args = {
+        [1] = "Magma",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin ORBIT", "buy the orbit skin for free", function()
+    local args = {
+        [1] = "Orbit",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin BLOBFISH", "buy the blobfish skin for free", function()
+    local args = {
+        [1] = "Blobfish",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin EYES", "buy the eyes skin for free", function()
+    local args = {
+        [1] = "Eyes",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin DREAD", "buy the dread skin for free", function()
+    local args = {
+        [1] = "Dread",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin PURPLETHING ", "buy the purplething skin for free", function()
+    local args = {
+        [1] = "purplething",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin FRIENDLYGREEN", "buy the friendlygreen skin for free", function()
+    local args = {
+        [1] = "FriendlyGreen",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin FRIENDLYBLUE", "buy the friendlyblue skin for free", function()
+    local args = {
+        [1] = "FriendlyBlue",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin PROTEAM", "buy the proteam skin for free", function()
+    local args = {
+        [1] = "ProTeam",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin PUMPKIN ", "buy the pumpkin skin for free", function()
+    local args = {
+        [1] = "Pumpkin",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin SNOWMAN", "buy the snowman skin for free", function()
+    local args = {
+        [1] = "Snowman",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin JOLLY ", "buy the jolly skin for free", function()
+    local args = {
+        [1] = "Jolly",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin SNOW", "buy the snow skin for free", function()
+    local args = {
+        [1] = "Snow",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin RED", "buy the red skin for free", function()
+    local args = {
+        [1] = "Red",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin ORANGE", "buy the orange skin for free", function()
+    local args = {
+        [1] = "Orange",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin YELLOW", "buy the yellow skin for free", function()
+    local args = {
+        [1] = "Yellow",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin GREEN", "buy the green skin for free", function()
+    local args = {
+        [1] = "Green",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin BLUE", "buy the blue skin for free", function()
+    local args = {
+        [1] = "Blue",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin PURPLE", "buy the purple skin for free", function()
+    local args = {
+        [1] = "Purple",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin EARTH", "buy the earth skin for free", function()
+    local args = {
+        [1] = "Earth",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin MOON", "buy the moon skin for free", function()
+    local args = {
+        [1] = "Moon",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin MARS", "buy the mars skin for free", function()
+    local args = {
+        [1] = "Mars",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin 8BALL", "buy the 8ball skin for free", function()
+    local args = {
+        [1] = "8Ball",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin AURORA ", "buy the aurora skin for free", function()
+    local args = {
+        [1] = "Aurora",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin ELECTRIC", "buy the electric skin for free", function()
+    local args = {
+        [1] = "Electric",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin CAMO", "buy the camo skin for free", function()
+    local args = {
+        [1] = "Camo",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin HEARTS", "buy the hearts skin for free", function()
+    local args = {
+        [1] = "Hearts",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin BURST", "buy the burst skin for free", function()
+    local args = {
+        [1] = "Burst",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin KITTY ", "buy the kitty skin for free", function()
+    local args = {
+        [1] = "Kitty",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin APPLE", "buy the apple skin for free", function()
+    local args = {
+        [1] = "apple",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin NUGGET", "buy the nugget skin for free", function()
+    local args = {
+        [1] = "nugget",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin LOBO", "buy the lobo skin for free", function()
+    local args = {
+        [1] = "lobo",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin SUS", "buy the sus skin for free", function()
+    local args = {
+        [1] = "sus",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin DOGGY", "buy the doggy skin for free", function()
+    local args = {
+        [1] = "Doggy",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin HYPNO", "buy the hypno skin for free", function()
+    local args = {
+        [1] = "Hypno",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin MONKE", "buy the monke skin for free", function()
+    local args = {
+        [1] = "Monke",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin GLORP", "buy the glorp skin for free", function()
+    local args = {
+        [1] = "Glorp",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin CAPYBARA", "buy the capybara skin for free", function()
+    local args = {
+        [1] = "Capybara",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin GATO", "buy the gato skin for free", function()
+    local args = {
+        [1] = "Gato",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin NEBULA", "buy the nebula skin for free", function()
+    local args = {
+        [1] = "Nebula",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin SILLY", "buy the silly skin for free", function()
+    local args = {
+        [1] = "silly",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin RAT", "buy the rat skin for free", function()
+    local args = {
+        [1] = "Rat",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin SPARKLES", "buy the sparkles skin for free", function()
+    local args = {
+        [1] = "Sparkles",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+MainSection:NewButton("Get free skin LAVA", "buy the lava skin for free", function()
+    local args = {
+        [1] = "Lava",
+        [2] = 0
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuySkin"):FireServer(unpack(args))    
+end)
+
+--Extras
+
+local Extras = Window:NewTab("Extras")
+local ExtrasSection = Extras:NewSection("Extras")
+
+ExtrasSection:NewToggle("Collect Blobs Faster", "walk faster", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 400
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end
+end)
+
+ExtrasSection:NewButton("GodMode", "godmode", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
